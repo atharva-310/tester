@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <title>Test App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="my-3">Test App</h1>
+    <form id="form-connect">
+      <div class="input-group mb-3">
+        <select id="camera-select"></select>
+        <button class="btn btn-success" type="submit" id="button-start">Start</button>
+        <button class="btn btn-danger mx-2 rounded " id="button-stop" >Stop</button> 
+        <button class="btn btn-secondary mx-2 rounded " id="button-take-snap" >Snap</button> 
+        <button id="play" class="btn btn-primary mx-2 rounded">Play</button>
+      </div>
+    </form>
+    <div class="position-relative">
+      <video id="video" ></video>
+      <canvas id="canvas" class="position-absolute top-0 start-0 "  ></canvas>
+      <!-- <canvas id="canvas-draw" class="position-absolute top-0 start-0 "  ></canvas> -->
+    </div>
+  </div>
+
+  
+
+  
+
+  <!-- <script src="script.js"></script> -->
+  <script src="./copy.js"></script>
+</body>
+
+</html>
