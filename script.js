@@ -20,7 +20,7 @@ const drawFaceRectangles = (video, canvas, {x, y, width, height}) => {
 };
 
 const startFaceDetection = (video, canvas, deviceId) => {
-  const socket = new WebSocket('ws://localhost:8000/detector');
+  const socket = new WebSocket('wss://localhost:8000/detector');
   // hand-test.herokuapp.com
   // const socket = new WebSocket('wss://hand-test.herokuapp.com/detector');
 

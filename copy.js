@@ -50,7 +50,7 @@ const startFaceDetection = (video, canvas, deviceId) => {
   //  const socket = new WebSocket('ws://localhost:8000/face-detection');
   //  const socket = new WebSocket('ws://localhost:8000/detector');
   //  const socket = new WebSocket('ws://hand-test.herokuapp.com/detector');
-  const socket = new WebSocket('ws://socket-fastapi-gesture-detection-bdv72qo4da-em.a.run.app/detector');
+  const socket = new WebSocket('wss://socket-fastapi-gesture-detection-bdv72qo4da-em.a.run.app/detector');
 
 
   // const socket = new WebSocket('ws://face-tracking-websocket.herokuapp.com/face-detection');
